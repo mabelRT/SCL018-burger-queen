@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+<<<<<<< HEAD
+=======
+import './firebase.js';
+>>>>>>> beeaefb2456924088249413285fd83f9b2f9bc6b
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
