@@ -1,38 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Roboto&display=swap');
+
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  background-color: #B9D9C3;
+  margin: 0;
+  padding:0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo{
+  height:auto;
+  width:50rem;
+  position: relative;
+  top:415px;
+  right:226px;
+  margin:0;
+}
+.title{
+position: absolute;
+width: 565px;
+height: 300px;
+margin: 0;
+padding: 0;
+top: 960px;
+right: 350px;
+font-family: Modak;
+font-style: normal;
+font-weight: normal;
+font-size: 96px;
+line-height: 70px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* cuadros */
+
+color: #FBCB7B;
+
+/* TEXTO */
+-webkit-text-stroke: 3px #752A07;
+
+
+
+display: flex;
+align-items: center;
+text-align: center;
+  
+}
+.container-home{
+height: 1180px;
+width: 820px;
+ position: relative;
+ left: 50%;
+ top:50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-home{
+width: 340px;
+height: 90px;
+font-size: 60px;
+margin-top: 30px;
+font-family:'roboto';
+color:#ffff;
+text-align: center;
+font-weight: normal;
+background: #EB5E30;
+border-radius: 10px;
+margin: top 1em;
+position:relative;
+top: 400px;
 }
