@@ -2,9 +2,9 @@ import React from "react";
  
 const Waiters = () => {
     return (
-        <div>
-            <h1>meseros</h1>
-        </div>
+        <section className="waiters">
+            <h1>PEDIDOS</h1>
+        </section>
     )
 }
 export default Waiters;
