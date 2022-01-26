@@ -1,0 +1,96 @@
+{
+    "breakfast": [
+        {
+            "id":"1",
+            "name":"Café Americano",
+            "price":"5",
+            "image":"https://i.imgur.com/YKjQgQU.png",
+            "quantity":"0"
+        },
+        {
+            "id":"2",
+            "name":"Café con leche",
+            "price":"7",
+            "image":"https://i.imgur.com/4h4qiyQ.png",
+            "quantity":"0"
+        },
+        {
+            "id":"3",
+            "name":"Sandwich de jamón y queso",
+            "price":"10",
+            "image":"https://i.imgur.com/LXDKMuf.png",
+            "quantity":"0"
+        },
+        {
+            "id":"4",
+            "name":"Jugo de frutas",
+            "price":"7",
+            "image":"https://i.imgur.com/AgXL830.jpg",
+            "quantity":"0"
+        }   
+    ],
+    "burger": [
+        {
+            "id":"5",
+            "name":"Hamburguesa simple",
+            "price":"10",
+            "image":"https://i.imgur.com/sriPNvm.png",
+            "quantity":"0"
+        },
+        {
+            "id":"6",
+            "name":"Hamburguesa doble",
+            "price":"15",
+            "image":"https://i.imgur.com/aH7kGJw.png",
+            "quantity":"0"
+        }
+       
+    ],
+"sides": [
+    {
+        "id":"7",
+        "name":"Papas fritas",
+        "price":"5",
+        "image":"https://i.imgur.com/OR6SN5o.jpg",
+        "quantity":"0"
+    },
+    {
+        "id":"8",
+        "name":"Aros de cebolla",
+        "price":"5",
+        "image":"https://i.imgur.com/3VOcaQE.png",
+        "quantity":"0"
+    }
+   
+],
+"drinks": [
+    {
+        "id":"9",
+        "name":"Agua 500ml",
+        "price":"5",
+        "image":"https://i.imgur.com/tMz3ovl.png",
+        "quantity":"0"
+    },
+    {
+        "id":"10",
+        "name":"Agua 750ml",
+        "price":"7",
+        "image":"https://i.imgur.com/ObZtNzw.png",
+        "quantity":"0"
+    },
+    {
+        "id":"11",
+        "name":"Bebida/gaseosa 500ml",
+        "price":"7",
+        "image":"https://i.imgur.com/YUvtldg.png",
+        "quantity":"0"
+    },
+    {
+        "id":"12",
+        "name":"Bebida/gaseosa 750ml",
+        "price":"10",
+        "image":"https://i.imgur.com/Wtr4gDS.png",
+        "quantity":"0"
+    }
+]
+}

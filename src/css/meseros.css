@@ -1,0 +1,26 @@
+.input{
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+}
+.menu{
+    background-color: #EB5E30;
+    color: white;
+    font-family: roboto;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 10px; 
+    border: 1px solid #752a07;  
+}
+
+.fas fa-home{
+    height: 400px;
+    width: 400px;
+}
+.resumen {
+    background-color:#FBCB7B ;
+    width: 400px;
+    height: 400px;
+
+}
