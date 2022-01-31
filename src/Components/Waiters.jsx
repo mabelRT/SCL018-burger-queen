@@ -2,7 +2,7 @@ import React, {useState,useContext} from "react"
 import "../css/meseros.css"
 import datamenu from '../datamenu.json';
 import {menuContext} from "../App";
-import Order from "../Components/Order.jsx";
+import Order from "./Order.jsx";
 
 const Waiters = () => {
     const orderContext = useContext(menuContext);
@@ -37,14 +37,13 @@ const Waiters = () => {
             <section className="conteinerPedidos">
                 <div className="menu-data">
                 {foodItems.map((food) => (
-        <button className="containerData" type="button" key={food.id} onClick={() => addData(food)}>
+              
+        <div className="containerData">
           <img className="imageData" src={food.image} alt="" />
-          <section>{food.name}</section>
-          <section>
-            $
-            {food.price}
-          </section>
-        </button>
+          <div className="textData">{food.name} <br></br> ${food.price}<br></br>
+        <button className="buttonP" type="button" key={food.id} onClick={() => addData(food)}> Agregar</button>
+        </div>
+        </div>
       ))}
       
                 </div>
