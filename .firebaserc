@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "burger-queen-4f83a"
-  }
+    "default": "burger-queen-4f83a",
+    "burguer queen": "burger-queen-4f83a"
+  },
+  "targets": {}
 }

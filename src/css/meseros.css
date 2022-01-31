@@ -1,26 +1,81 @@
+h1{
+    margin:10px;
+    margin-left: 50px;
+    color:#752a07;
+}
+
+.container-input{
+    display: flex;
+    flex-direction:row;
+    margin-left: 50px;
+}
 .input{
     display: flex;
     background-color: white;
-    flex-direction: row;
+    width: 230px;
+    height: 25px;
+    margin-right: 15px;
+}
+
+.comanda{
+    background-color: #EB5E30;
+    color: white;
+    font-family: roboto;
+    width: 180px;
+    height: 35px;
+    font-size: 16px;
+    border: 1px solid #752a07;  
+    position: relative;
+    left: 585px;
+    bottom: 25px;
+
 }
 .menu{
     background-color: #EB5E30;
     color: white;
     font-family: roboto;
-    width: 150px;
-    height: 40px;
+    width: 180px;
+    height: 35px;
     font-size: 16px;
-    margin-top: 10px; 
+    margin-bottom: 40px;
+    margin-top: 20px; 
     border: 1px solid #752a07;  
+    align-items: end;
 }
 
-.fas fa-home{
-    height: 400px;
-    width: 400px;
+.menu-ok{
+    background-color: #EB5E30;
+    color: white;
+    font-family: roboto;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    margin-top:0;
+    border: 1px solid #752a07;  
+
 }
+
+
 .resumen {
     background-color:#FBCB7B ;
-    width: 400px;
+    width: 310px;
     height: 400px;
+    border: 1px solid #752a07;  
 
+}
+.conteinerPedidos{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    height: 500px;
+}
+.menu-data{
+    /*background-color: aqua;*/
+    width: 410px;
+    height:400px;
+}
+.containerMenu{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
