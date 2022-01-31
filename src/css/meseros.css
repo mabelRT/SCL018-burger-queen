@@ -74,7 +74,7 @@ h1{
     /*background-color: aqua;*/
     display: grid;
     grid-template-columns: repeat(2, 100px);
-    grid-gap: 95px 80px;
+    grid-gap: 96px 80px;
  
 
 }
