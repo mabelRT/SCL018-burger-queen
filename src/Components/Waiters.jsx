@@ -6,6 +6,7 @@ import Order from "./Order.jsx";
 
 const Waiters = () => {
     const orderContext = useContext(menuContext);
+    console.log(orderContext)
     const [foodItems, setFoodItem] = useState([]);
 
   
@@ -13,7 +14,7 @@ const Waiters = () => {
       setFoodItem(datamenu[category]);
     };
     const addData = (food) => {
-      orderContext.addFoodItems(food);
+      orderContext.addFood(food);
     };
     return (
 

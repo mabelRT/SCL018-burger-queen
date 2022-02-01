@@ -13,7 +13,7 @@ const Order = () => {
     };
   
     const decrease = (id) => {
-      menuContext.decreaseFood(id);
+      orderContext.decreaseFood(id);
     };
     const totalPrice= orderContext.foods.orders
     .reduce((total, food) => (total = total + food.price * food.count), 0);
