@@ -7,7 +7,11 @@ import Home from './Components/Home';
 import datamenu from './datamenu.json';
 export const menuContext = createContext();
 
-function App () {
+function App () { 
+
+  const [name, setName] = useState('');
+  const [table, setTable] = useState('');
+  
   const [foods, setFoods] = useState({
     foodsList: datamenu,
     orders: [],
@@ -53,7 +57,7 @@ function App () {
       };
       
     const value = {
-      foods,setFoods, addFood, removeFood, increaseFood, decreaseFood,
+      foods,setFoods, setName, name, table, setTable,addFood, removeFood, increaseFood, decreaseFood,
     };
 
   return (
