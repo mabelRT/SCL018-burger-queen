@@ -1,0 +1,39 @@
+.resumen{
+    background-color:#FBCB7B ;
+    font-family: roboto;
+}
+
+.buttonOptions{
+    display: grid;
+    grid-template-columns: 20px 30px 20px 30px 50px;
+    grid-gap: 5px;
+}
+.containerTotal{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.containerName{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.titleOrder{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.increase-decrease{
+    background-color: #EB5E30;
+    height: 20px;
+    color: white;
+    border: none;
+}
+
+.delete{
+    background-color: #EB5E30;
+    height: 20px;
+    color: white;
+    border: none;
+
+}

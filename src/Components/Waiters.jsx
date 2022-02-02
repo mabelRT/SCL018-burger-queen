@@ -25,9 +25,10 @@ const Waiters = () => {
             <button className="comanda">Comandas listas</button>
             </div>
             <div className="container-input">
-            <input className="input" id="nombre" type="text" placeholder="Nombre del cliente" />
-            <input className="input" id="mesa" type="text" placeholder="Número de mesa" />
-            <button className="menu-ok">OK</button>
+
+            <input className="input" id="nombre" type="text" value={orderContext.name} onChange={(e) => orderContext.setName(e.target.value)} placeholder="Nombre del cliente" />
+            <input className="input" id="mesa" type="number" value={orderContext.table} onChange={(e) => orderContext.setTable(e.target.value)} placeholder="Número de mesa" />
+            <button className="menu-ok" type="button" onClick={console.log(orderContext.name)}>OK</button>
             </div>
             <section className="containerMenu">
                 <button className="menu" type="button" onClick={() => filterData('breakfast')}>Desayunos</button>
@@ -48,12 +49,9 @@ const Waiters = () => {
       ))}
       
                 </div>
-                <div className="resumen">
-                    <div>
+      
                     <Order />
-                    </div>
-                    <button className="menu">Enviar pedidos</button>
-                </div>
+                
             </section>
         </main>
     )
