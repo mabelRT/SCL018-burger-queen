@@ -109,6 +109,7 @@ h1{
     background-color: #EB5E30;
     color:#ffff;
     justify-content: center;
+    border: none;
 }
 .textData{
     background-color: white;

@@ -1,6 +1,7 @@
 .resumen{
     background-color:#FBCB7B ;
     font-family: roboto;
+    padding: 20px;
 }
 
 .buttonOptions{
@@ -12,6 +13,7 @@
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
+    background-color:#FBCB7B ;
 }
 .containerName{
     display: flex;
@@ -28,6 +30,7 @@
     height: 20px;
     color: white;
     border: none;
+    left: 100px;
 }
 
 .delete{
