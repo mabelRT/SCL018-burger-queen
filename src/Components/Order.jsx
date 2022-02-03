@@ -2,6 +2,7 @@ import React, { Fragment, useContext } from "react";
 import { menuContext } from "../App";
 import "../css/orders.css"
 
+
 const Order = () => {
   const orderContext = useContext(menuContext);
   const Delete = (id) => {
@@ -22,13 +23,13 @@ const Order = () => {
   const totalItem = orderContext.foods.orders
     .reduce((total, food) => (total = total + food.count), 0);
   return (
-    <div className="resumen">
-      <h3 className="text-name">Pedido</h3>
+    <div className="resumen" >
+      <h3 className="text-name" >Pedido</h3>
       <p className="text-name">{orderContext.name}</p> <p> mesa n°{orderContext.table}</p>
-      
+      <div className="titleOrder"><h3>Pedidos</h3><h3>Precio</h3> </div>
       {orderContext.foods.orders.map((food) => (
-        <div className="resumen-pedido" key={food.id}>
-          <div className="titleOrder"><h3>Pedidos</h3><h3>Precio</h3> </div>
+        <div className="resumen-pedido"key={food.id}>
+          
           <section className="containerName">
           <p>{food.name}</p>
           <p>{' '}{food.price}$</p> 
@@ -38,7 +39,7 @@ const Order = () => {
               <p>x {' '} {food.count}</p>
             <button className="increase-decrease"type="button" onClick={() => decrease(food.id)}>-</button>
               <p> {' '} {food.price * food.count}$</p>
-            <button className="delete" type="button" onClick={() => Delete(food.id)}>Delete</button>
+            <button className="delete" type="button" onClick={() => Delete(food.id)} >Delete</button>
           </section>
         </div>
 
@@ -47,7 +48,7 @@ const Order = () => {
       <h3>{' '}Total:{' '}{totalItem}</h3>
       <h3>Total:{' '}{totalPrice}$</h3>
       </section>
-      <button className="buttonRes" type="button"></button>
+      <button className="buttonP" type="button">Enviar pedido</button>
     </div>
 
     )

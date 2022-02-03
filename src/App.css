@@ -4,9 +4,13 @@
   text-align: center;
 }
 *{
-  background-color: #B9D9C3;
+  
   margin: 0;
   padding:0;
+}
+
+body{
+  background-color: #B9D9C3;
 }
 footer{
   min-height: 70px;
