@@ -40,7 +40,7 @@ const Waiters = () => {
           {foodItems.map((food) => (
             <div className="containerData">
               <img className="imageData" src={food.image} alt="" />
-              <div className="textData">{food.name} <br></br> ${food.price}<br></br>
+              <div className="textData">{food.name} <br /> ${food.price}<br />
                 <button className="buttonP" type="button" key={food.id} onClick={() => addData(food)}> Agregar</button>
               </div>
             </div>
