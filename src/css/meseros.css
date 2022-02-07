@@ -73,10 +73,10 @@ h1{
 .menu-data{
     /*background-color: aqua;*/
     display: grid;
-    grid-template-columns: repeat(2, 100px);
-    grid-gap: 96px 80px;
- 
-
+    grid-template-columns: 150px 100px;
+    grid-template-rows: 170px 170px 170px;
+    grid-row-gap: 50px;
+    grid-column-gap: 10px;
 }
 .containerMenu{
     display: flex;
@@ -97,11 +97,14 @@ h1{
 .containerData{
     background-color: white;
     width: 140px;
-    height: 150px;
+    height: 120px;
     margin: 0;
     padding: 0;
     justify-items: center;
-   
+    border-top: 1px solid #752a07;  
+    border-left: 1px solid #752a07;
+    border-right:1px solid #752a07;
+
 }
 .buttonP{
     width: 100px;
@@ -114,5 +117,15 @@ h1{
 .textData{
     background-color: white;
     justify-items: center;
+    width: 140px;
     text-align: center;
+    position: relative;
+    right: 1px;
+    bottom:10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #752a07;  
+    border-left: 1px solid #752a07;
+    border-right:1px solid #752a07;
+ 
+
 }

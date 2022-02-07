@@ -21,6 +21,7 @@ const Waiters = () => {
       <div>
         <h1>PEDIDOS</h1>
         <button className="comanda">Comandas listas</button>
+        <button className="comandas">Cocina </button>
       </div>
       <div className="container-input">
         {/* nombre de cliente y número de mesa */}
@@ -32,7 +33,7 @@ const Waiters = () => {
         <button className="menu" type="button" onClick={() => filterData('breakfast')}>Desayunos</button>
         <button className="menu" type="button" onClick={() => filterData('burger')}>Hamburguesas</button>
         <button className="menu" type="button" onClick={() => filterData('sides')}>Acompañamientos</button>
-        <button className="menu" type="button" onClick={() => filterData('drinks')}>Para tomar</button>
+        <button className="menu" type="button" onClick={() => filterData('drinks')('sides')}>Para tomar</button>
       </section>
       <section className="conteinerPedidos">
         <div className="menu-data">
@@ -41,7 +42,7 @@ const Waiters = () => {
             <div className="containerData">
               <img className="imageData" src={food.image} alt="" />
               <div className="textData">{food.name} <br /> ${food.price}<br />
-                <button className="buttonP" type="button" key={food.id} onClick={() => addData(food)}> Agregar</button>
+              <button className="buttonP" type="button" key={food.id} onClick={() => addData(food)}> Agregar</button>
               </div>
             </div>
           ))}

@@ -7,7 +7,9 @@
 .buttonOptions{
     display: grid;
     grid-template-columns: 20px 30px 20px 30px 50px;
-    grid-gap: 5px;
+    grid-gap: 8px;
+    justify-content: center;
+    margin-bottom: 1em;
 }
 .containerTotal{
     display: flex;
@@ -37,6 +39,22 @@
     background-color: #EB5E30;
     height: 20px;
     color: white;
-    border: none;
+    border: 1px solid #752a07;  
 
+
+
+}
+.buttonP{
+
+    background-color: #EB5E30;
+    color: white;
+    border: 1px solid #752a07;  
+    font-family: roboto;
+}
+.buttonP:hover {background-color: #FBCB7B}
+
+.button:active {
+  background-color: #FBCB7B;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }

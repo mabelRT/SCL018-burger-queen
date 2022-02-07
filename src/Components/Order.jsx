@@ -1,10 +1,11 @@
-import React, { Fragment, useContext } from "react";
+import React, { useContext } from "react";
 import { menuContext } from "../App";
 import "../css/orders.css"
 
 
 const Order = () => {
   const orderContext = useContext(menuContext);
+  
   const Delete = (id) => {
     orderContext.removeFood(id);
   };

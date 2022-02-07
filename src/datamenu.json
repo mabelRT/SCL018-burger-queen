@@ -18,7 +18,7 @@
         },
         {
             "id":"3",
-            "name":"Sandwich de jamón y queso",
+            "name":"Sandwich jamón y queso",
             "price":"10",
             "image":"https://i.imgur.com/LXDKMuf.png",
             "category": "breakfast",
@@ -36,15 +36,15 @@
     "burger": [
         {
             "id":"5",
-            "name":"Hamburguesa simple",
+            "name":"Burger simple",
             "price":"10",
-            "image":"https://i.imgur.com/sriPNvm.png",
+            "image":"https://i.imgur.com/rtnWF23.png",
             "category": "burger",
             "quantity":"0"
         },
         {
             "id":"6",
-            "name":"Hamburguesa doble",
+            "name":"Burger doble",
             "price":"15",
             "image":"https://i.imgur.com/aH7kGJw.png",
             "category": "burger",
@@ -52,25 +52,25 @@
         },
         {
             "id":"7",
-            "name":"Hamburguesa de vacuno",
+            "name":"Burger vacuno",
             "price":"1",
-            "image":"https://i.imgur.com/sriPNvm.png",
+            "image":"https://i.imgur.com/zGdpPpr.png",
             "category": "burger",
             "quantity":"0"
         },
         {
             "id":"8",
-            "name":"Hamburguesa de pollo",
+            "name":"Burger pollo",
             "price":"1",
-            "image":"https://i.imgur.com/sriPNvm.png",
+            "image":"https://i.imgur.com/RQ35HBf.png",
             "category": "burger",
             "quantity":"0"
         },
         {
             "id":"9",
-            "name":"Hamburguesa de soya",
+            "name":"Burger soya",
             "price":"1",
-            "image":"https://i.imgur.com/sriPNvm.png",
+            "image":"https://i.imgur.com/RXDtjLE.png",
             "category": "burger",
             "quantity":"0"
         },
@@ -78,7 +78,7 @@
             "id":"10",
             "name":"Extra queso",
             "price":"1",
-            "image":"https://i.imgur.com/sriPNvm.png",
+            "image":"https://i.imgur.com/jOlm0SN.png",
             "category": "burger",
             "quantity":"0"
         },
@@ -86,16 +86,22 @@
             "id":"11",
             "name":"Extra huevo",
             "price":"1",
-            "image":"https://i.imgur.com/sriPNvm.png",
+            "image":"https://i.imgur.com/J7jHszE.png",
+            "category": "burger",
+            "quantity":"0"
+        },
+        {
+            "id":"12",
+            "name":"Extra tocino",
+            "price":"1",
+            "image":"https://i.imgur.com/1u9kZum.png",
             "category": "burger",
             "quantity":"0"
         }
-        
-       
     ],
 "sides": [
     {
-        "id":"12",
+        "id":"13",
         "name":"Papas fritas",
         "price":"5",
         "image":"https://i.imgur.com/OR6SN5o.jpg",
@@ -103,7 +109,7 @@
         "quantity":"0"
     },
     {
-        "id":"13",
+        "id":"14",
         "name":"Aros de cebolla",
         "price":"5",
         "image":"https://i.imgur.com/3VOcaQE.png",
@@ -114,7 +120,7 @@
 ],
 "drinks": [
     {
-        "id":"14",
+        "id":"15",
         "name":"Agua 500ml",
         "price":"5",
         "image":"https://i.imgur.com/tMz3ovl.png",
@@ -122,7 +128,7 @@
         "quantity":"0"
     },
     {
-        "id":"15",
+        "id":"16",
         "name":"Agua 750ml",
         "price":"7",
         "image":"https://i.imgur.com/ObZtNzw.png",
@@ -130,7 +136,7 @@
         "quantity":"0"
     },
     {
-        "id":"16",
+        "id":"17",
         "name":"Bebida/gaseosa 500ml",
         "price":"7",
         "image":"https://i.imgur.com/YUvtldg.png",
@@ -138,7 +144,7 @@
         "quantity":"0"
     },
     {
-        "id":"17",
+        "id":"18",
         "name":"Bebida/gaseosa 750ml",
         "price":"10",
         "image":"https://i.imgur.com/Wtr4gDS.png",
