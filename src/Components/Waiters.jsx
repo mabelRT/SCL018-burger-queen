@@ -35,6 +35,7 @@ const Waiters = () => {
         <button className="menu" type="button" onClick={() => filterData('sides')}>Acompañamientos</button>
         <button className="menu" type="button" onClick={() => filterData('drinks')('sides')}>Para tomar</button>
       </section>
+      {/**/}
       <section className="conteinerPedidos">
         <div className="menu-data">
           {/*mostrar la data del menú en tarjetas*/}
