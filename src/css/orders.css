@@ -2,12 +2,16 @@
     background-color:#FBCB7B ;
     font-family: roboto;
     padding: 20px;
+    border: 1px solid #752a07;
+    border-radius: 20px;
 }
 
 .buttonOptions{
     display: grid;
-    grid-template-columns: 20px 30px 20px 30px 50px;
-    grid-gap: 5px;
+    grid-template-columns: 20px 30px 20px 30px 30px;
+    grid-gap: 8px;
+    justify-content: center;
+    margin-bottom: 1em;
 }
 .containerTotal{
     display: flex;
@@ -32,11 +36,33 @@
     border: none;
     left: 100px;
 }
-
 .delete{
-    background-color: #EB5E30;
-    height: 20px;
-    color: white;
+    outline:none;
     border: none;
+    background-color: #FBCB7B;
+}
 
+
+.deleteIcon{
+    background-size: cover;
+    height: 80%;
+    width: 80% ;
+    border:none;
+    background-color: #FBCB7B;
+    border-radius:10px;
+    outline:none;
+}
+.buttonP{
+
+    background-color: #EB5E30;
+    color: white;
+    border: 1px solid #752a07;  
+    font-family: roboto;
+}
+.buttonP:hover {background-color: #FBCB7B}
+
+.button:active {
+  background-color: #FBCB7B;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }

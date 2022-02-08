@@ -1,7 +1,14 @@
 h1{
     margin:10px;
-    margin-left: 50px;
     color:#752a07;
+    position: relative;
+    right: 40px;
+}
+.iconsHeader{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .container-input{
@@ -24,24 +31,32 @@ h1{
     width: 180px;
     height: 35px;
     font-size: 16px;
-    border: 1px solid #752a07;  
-    position: relative;
-    left: 585px;
-    bottom: 25px;
-
+    border: 1px solid #752a07; 
+    position:relative;
+    top: 16px;
+    padding-top: 10px;
+    text-align: center;
+    cursor: pointer;
 }
+.comanda:hover {background-color: #FBCB7B}
+
 .menu{
     background-color: #EB5E30;
     color: white;
     font-family: roboto;
-    width: 180px;
+    width: 170px;
     height: 35px;
     font-size: 16px;
     margin-bottom: 40px;
     margin-top: 20px; 
     border: 1px solid #752a07;  
     align-items: end;
+    cursor: pointer;
+   
 }
+.menu:hover {background-color: #FBCB7B}
+
+
 
 .menu-ok{
     background-color: #EB5E30;
@@ -51,7 +66,7 @@ h1{
     height: 30px;
     font-size: 16px;
     margin-top:0;
-    border: 1px solid #752a07;  
+    border: 1px solid #752a07;
 
 }
 
@@ -73,10 +88,10 @@ h1{
 .menu-data{
     /*background-color: aqua;*/
     display: grid;
-    grid-template-columns: repeat(2, 100px);
-    grid-gap: 96px 80px;
- 
-
+    grid-template-columns: 150px 100px;
+    grid-template-rows: 170px 170px 170px;
+    grid-row-gap: 50px;
+    grid-column-gap: 10px;
 }
 .containerMenu{
     display: flex;
@@ -97,11 +112,14 @@ h1{
 .containerData{
     background-color: white;
     width: 140px;
-    height: 150px;
+    height: 120px;
     margin: 0;
     padding: 0;
     justify-items: center;
-   
+    border-top: 1px solid #752a07;  
+    border-left: 1px solid #752a07;
+    border-right:1px solid #752a07;
+
 }
 .buttonP{
     width: 100px;
@@ -110,9 +128,20 @@ h1{
     color:#ffff;
     justify-content: center;
     border: none;
+    cursor: pointer;
 }
 .textData{
     background-color: white;
     justify-items: center;
+    width: 140px;
     text-align: center;
+    position: relative;
+    right: 1px;
+    bottom:10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #752a07;  
+    border-left: 1px solid #752a07;
+    border-right:1px solid #752a07;
+ 
+
 }
