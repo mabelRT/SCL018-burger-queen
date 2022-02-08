@@ -3,6 +3,7 @@ import "../css/meseros.css"
 import datamenu from '../datamenu.json';
 import { menuContext } from "../App";
 import Order from "./Order.jsx";
+import { Link } from "react-router-dom";
 
 const Waiters = () => {
   const orderContext = useContext(menuContext);
@@ -18,10 +19,17 @@ const Waiters = () => {
   };
   return (
     <main className="waiters">
-      <div>
+      <div  className="iconsHeader">
         <h1>PEDIDOS</h1>
-        <button className="comanda">Comandas listas</button>
-        <button className="comandas">Cocina </button>
+        <Link to="/">
+          <img className="iconHome"
+            src="https://img.icons8.com/ios-filled/50/000000/home.png"
+            alt="Home"
+            />
+        </Link>
+        <Link to="/kitchen">
+          <p className="comanda">Comandas listas</p>
+          </Link>
       </div>
       <div className="container-input">
         {/* nombre de cliente y número de mesa */}

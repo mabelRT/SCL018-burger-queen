@@ -40,7 +40,7 @@ const Order = () => {
               <p>x {' '} {food.count}</p>
             <button className="increase-decrease"type="button" onClick={() => decrease(food.id)}>-</button>
               <p> {' '} {food.price * food.count}$</p>
-            <button className="delete" type="button" onClick={() => Delete(food.id)} >Delete</button>
+            <button className="delete" type="button" onClick={() => Delete(food.id)} ><img className="deleteIcon" src="https://img.icons8.com/glyph-neue/64/000000/trash.png"/></button>
           </section>
         </div>
 
