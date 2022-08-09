@@ -5,6 +5,6 @@ Un pequeño restaurante de hamburguesas, que está creciendo, necesita una inter
 push logrado
 
 ## Prototipo
-![prototipo](../burger-queen/src/img/prototipo.png)
+![prototipo](src/img/prototipo.png)
 ## Link de pagina:
-![alt text](https://iconos8.es/icons/set/linkedin)
+https://iconos8.es/icons/set/linkedin
