@@ -29,7 +29,7 @@ const Waiters = () => {
         </Link>
         <Link to="/kitchen">
           <p className="comanda">Comandas listas</p>
-          </Link>
+        </Link>
       </div>
       <div className="container-input">
         {/* nombre de cliente y número de mesa */}

@@ -3,15 +3,23 @@ import { Link } from "react-router-dom";
 import "../App.css";
 import logoburger from "../img/logoburger.png"
 
-const Home = () => {
+
+export default function Home() {
     return (
-        <section className="container-home">
-            <img className="logo" src= {logoburger} alt="logo burguer queen" />
-            <h1 className="title">Burger Queen</h1>
-            <Link to="/waiters"><button className="btn-home">Meseros</button></Link>
-            <br />
-            <Link to="/kitchen"><button className="btn-home">Cocina</button></Link>
-        </section>
+        <>
+            <section className="container-home">
+                <div className="home-cnt">
+                 <img className="logo" src= {logoburger} alt="logo burguer queen" />
+
+                 <div className="home-title">
+                    <h1 className="title">Burger Queen </h1>
+                 </div>
+                 <div className="home-btn">
+                 <Link to="/waiters"><button className="btn-home">Meseros</button></Link>
+                 <Link to="/kitchen"><button className="btn-home">Cocina</button></Link>
+                 </div>
+                 </div>
+            </section>
+        </>
     )
-}
-export default Home;
+};
