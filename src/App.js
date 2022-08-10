@@ -71,7 +71,6 @@ function App() {
     increaseFood,
     decreaseFood,
   };
-
   return (
     <>
       <menuContext.Provider value={value}>
